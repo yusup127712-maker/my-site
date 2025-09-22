@@ -1,65 +1,13 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <title>Админ-панель</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="sidebar">
-    <h2>Моя Панель</h2>
-    <a href="#">Главная</a>
-    <a href="#">Клиенты</a>
-    <a href="#">Статистика</a>
-    <a href="#">Настройки</a>
-    <a href="#">Выход</a>
-  </div>
-
-  <div class="content">
-    <div class="header">
-      <h1>Главная</h1>
-      <span>👤 Admin</span>
-    </div>
-
-    <div class="main">
-      <!-- Клиенты -->
-      <div class="card">
-        <h2>Мои клиенты</h2>
-        <table id="clients-table">
-          <thead>
-            <tr>
-              <th>Имя</th>
-              <th>Email</th>
-              <th>Статус</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr><td colspan="3">Загрузка...</td></tr>
-          </tbody>
-        </table>
-
-        <!-- Форма добавления клиента -->
-        <form id="client-form">
-          <h3>Добавить клиента</h3>
-          <input type="text" id="name" placeholder="Имя" required>
-          <input type="email" id="email" placeholder="Email" required>
-          <select id="status">
-            <option>Активен</option>
-            <option>На паузе</option>
-            <option>Новый</option>
-          </select>
-          <button type="submit">Добавить</button>
-        </form>
-      </div>
-
-      <!-- Статистика -->
-      <div class="card">
-        <h2>Статистика</h2>
-        <canvas id="chart" width="300" height="200"></canvas>
-      </div>
-    </div>
-  </div>
-
-  <script src="script.js"></script>
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VPN User Control Panel</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
