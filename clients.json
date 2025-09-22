@@ -1,0 +1,6 @@
+[
+  { "name": "Иван Петров", "email": "ivan@example.com", "status": "Активен" },
+  { "name": "Анна Смирнова", "email": "anna@example.com", "status": "На паузе" },
+  { "name": "Сергей Иванов", "email": "sergey@example.com", "status": "Активен" },
+  { "name": "Мария Кузнецова", "email": "maria@example.com", "status": "Новый" }
+]

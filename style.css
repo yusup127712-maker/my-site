@@ -1,0 +1,52 @@
+
+Shmertzgulch Firtz
+17:53 (2 minutes ago)
+to me
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  background: #f3f4f6;
+  color: #111827;
+}
+.sidebar {
+  width: 220px; background: #1f2937; color: #fff;
+  display: flex; flex-direction: column; padding: 20px;
+}
+.sidebar h2 { margin-bottom: 20px; font-size: 1.2rem; text-align: center; }
+.sidebar a {
+  color: #d1d5db; text-decoration: none; padding: 10px;
+  border-radius: 8px; margin-bottom: 5px; display: block;
+  transition: background 0.2s;
+}
+.sidebar a:hover { background: #374151; color: #fff; }
+.content { flex: 1; padding: 20px; display: flex; flex-direction: column; }
+.header {
+  background: #fff; padding: 15px 20px; border-radius: 12px;
+  margin-bottom: 20px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  display: flex; justify-content: space-between; align-items: center;
+}
+.header h1 { font-size: 1.5rem; }
+.main { flex: 1; display: grid; grid-template-columns: 2fr 1fr; gap: 20px; }
+.card {
+  background: #fff; padding: 20px; border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+th, td { border: 1px solid #e5e7eb; padding: 10px; text-align: left; }
+th { background: #f9fafb; }
+tr:nth-child(even) { background: #f3f4f6; }
+
+form {
+  margin-top: 15px; display: flex; flex-direction: column; gap: 10px;
+}
+form input, form select {
+  padding: 8px; border: 1px solid #d1d5db; border-radius: 6px;
+}
+form button {
+  padding: 10px; background: #3b82f6; color: #fff;
+  border: none; border-radius: 8px; cursor: pointer;
+}
+form button:hover { background: #2563eb; }
